@@ -652,5 +652,6 @@ pg_types = {
     1263: {"bin_in": array_recv}, # cstring[]
     1700: {"bin_in": numeric_recv},
     2275: {"bin_in": varcharin}, # cstring
+    2278: {"bin_in": varcharin}, # void, for instance, it is returned by pg_sleep
 }
 
